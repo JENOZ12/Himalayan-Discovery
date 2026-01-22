@@ -31,6 +31,7 @@ export async function GET() {
         { url: `${baseUrl}/honeymoon-hotels-in-spiti-kinnaur`, lastMod: new Date(), changeFreq: 'monthly', priority: 0.7 },
         { url: `${baseUrl}/winter-spiti-valley-hotels`, lastMod: new Date(), changeFreq: 'monthly', priority: 0.7 },
         { url: `${baseUrl}/hotels-with-kinner-kailash-view`, lastMod: new Date(), changeFreq: 'monthly', priority: 0.7 },
+        { url: `${baseUrl}/homestays-in-nako-lake-kinnaur`, lastMod: new Date(), changeFreq: 'monthly', priority: 0.7 },
     ];
 
     // Dynamic Pages

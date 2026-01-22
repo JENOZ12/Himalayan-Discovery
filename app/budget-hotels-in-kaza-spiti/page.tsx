@@ -16,7 +16,7 @@ export default function KazaBudgetPage() {
         <main className="min-h-screen bg-[var(--background)] selection:text-black selection:bg-[var(--gold-accent)]">
             <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0">
-                    <img src="https://lh3.googleusercontent.com/pw/AP1GczOgkNZjYRXHfSjB9C9TDF7sYRed64e1OhsReJnRKI7RcAslZdxGq-gHXU9REVy6fki6tB1xsWdxEGLu5JuwayShou91InwhkKvCAUfHnBmZqnOJTpE=w400-h300-no" alt="Kaza Market" className="w-full h-full object-cover brightness-[0.4]" />
+                    <img src="/images/spiti-hotel-hero.png" alt="Kaza Market" className="w-full h-full object-cover brightness-[0.4]" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[var(--background)] via-transparent to-transparent" />
                 </div>
                 <div className="relative z-10 text-center px-6">
