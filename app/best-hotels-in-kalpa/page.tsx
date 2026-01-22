@@ -72,7 +72,7 @@ export default function KalpaHotelsPage() {
                     </div>
                     <div className="relative h-[400px] rounded-2xl overflow-hidden border border-white/10">
                         <img
-                            src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&q=80&w=1200"
+                            src="/images/apple-orchards.png"
                             alt="Kalpa Village Apple Orchards"
                             className="w-full h-full object-cover"
                         />

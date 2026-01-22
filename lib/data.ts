@@ -31,36 +31,22 @@ export interface Hotel {
 }
 
 // Helper to generate multiple images
-const unsplashHotels = [
-    "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1571896349842-1e5828de31cb?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1568495248636-6432d97bd949?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1590073844006-333d45e16873?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1505691938895-1758d7fab541?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1496545672479-7ac3764ca3c9?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&q=80&w=1200"
+// Helper to generate multiple images
+const genericHotels = [
+    "/images/generic-room.png",
+    "/images/generic-view.png",
+    "/images/generic-exterior.png",
+    "/images/luxury-amenities.png",
+    "/images/spiti-hotel-hero.png",
+    "/images/kalpa-hero.png",
+    "/images/sarahan-hero.png"
 ];
 
 // Helper to check and get random images - simplistic rotation
 const getGallery = (startIndex: number) => {
     const gallery = [];
-    for (let i = 0; i < 10; i++) {
-        gallery.push(unsplashHotels[(startIndex + i) % unsplashHotels.length]);
+    for (let i = 0; i < 6; i++) {
+        gallery.push(genericHotels[(startIndex + i) % genericHotels.length]);
     }
     return gallery;
 }
@@ -318,6 +304,22 @@ export const hotels: Hotel[] = [
         ]
     },
     {
+        id: "rupin-river-view",
+        name: "HOTEL RUPIN RIVER VIEW",
+        location: "Rakchham",
+        type: "PREMIUM",
+        price: "On Request",
+        rating: 4.5,
+        image: "https://lh3.googleusercontent.com/p/AF1QipNxxhM-QvRj6qF3Z2J6y8P8v9qR_J5Q5Q5Q5Q5Q=s1360-w1360-h1020",
+        description: "Situated right on the banks of the Baspa river, offering the best uninterrupted views of the valley. Famous for its wooden architecture and balcony views.",
+        features: ["River View", "Balconies", "Bonfire", "Garden", "Parking"],
+        policies: ["Couples Welcome", "Breakfast Included"],
+        gallery: [
+            "https://lh3.googleusercontent.com/p/AF1QipNxxhM-QvRj6qF3Z2J6y8P8v9qR_J5Q5Q5Q5Q5Q=s1360-w1360-h1020",
+            "https://lh3.googleusercontent.com/p/AF1QipM-1234-placeholder-image-for-gallery-1=s1360-w1360-h1020",
+            "https://lh3.googleusercontent.com/p/AF1QipM-1234-placeholder-image-for-gallery-2=s1360-w1360-h1020"
+        ]
+    }, {
         id: "shambhu-lodge",
         name: "SHAMBHU LODGE",
         location: "Rakchham",

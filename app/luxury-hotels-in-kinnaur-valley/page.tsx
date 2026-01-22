@@ -49,7 +49,7 @@ export default function LuxuryKinnaurPage() {
                 <div className="container mx-auto px-6">
                     <div className="grid md:grid-cols-2 gap-16 items-center">
                         <div className="order-2 md:order-1">
-                            <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&q=80&w=1200" alt="Luxury Amenities" className="rounded-2xl border border-white/10" />
+                            <img src="/images/luxury-amenities.png" alt="Luxury Amenities" className="rounded-2xl border border-white/10" />
                         </div>
                         <div className="order-1 md:order-2">
                             <h2 className="text-3xl md:text-5xl font-serif text-white mb-8">Redefining Mountain Luxury</h2>

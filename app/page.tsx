@@ -477,7 +477,7 @@ export default function Home() {
       <section className="py-24 px-6 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+            src="/images/spiti-night-sky.png"
             className="w-full h-full object-cover brightness-[0.2]"
             alt="Newsletter Background"
           />

@@ -23,7 +23,7 @@ export default function SpitiHotelsPage() {
             <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0">
                     <img
-                        src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&q=80&w=2000"
+                        src="/images/spiti-night-sky.png"
                         alt="Spiti Valley Night Sky"
                         className="w-full h-full object-cover brightness-[0.4]"
                     />
@@ -78,7 +78,7 @@ export default function SpitiHotelsPage() {
                     </div>
                     <div className="relative h-[400px] rounded-2xl overflow-hidden border border-white/10">
                         <img
-                            src="https://images.unsplash.com/photo-1563911302283-d2bc129e7c1f?auto=format&fit=crop&q=80"
+                            src="/images/kaza-monastery.png"
                             alt="Kaza Monastery View"
                             className="w-full h-full object-cover"
                         />

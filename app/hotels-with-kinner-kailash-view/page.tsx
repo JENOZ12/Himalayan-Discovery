@@ -16,7 +16,7 @@ export default function PeakViewPage() {
         <main className="min-h-screen bg-[var(--background)]">
             <section className="h-screen relative flex items-center justify-center">
                 <div className="absolute inset-0 z-0">
-                    <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2000" alt="Kinner Kailash" className="w-full h-full object-cover brightness-50" />
+                    <img src="/images/kalpa-hero.png" alt="Kinner Kailash" className="w-full h-full object-cover brightness-50" />
                 </div>
                 <div className="relative z-10 text-center px-6">
                     <h1 className="text-5xl md:text-9xl font-serif text-white mb-8 tracking-tighter">KINNER<br />KAILASH</h1>
