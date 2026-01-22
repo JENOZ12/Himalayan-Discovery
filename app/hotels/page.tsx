@@ -87,15 +87,10 @@ export default function HotelsPage() {
     return (
         <main ref={container} className="min-h-screen bg-[var(--background)] selection:bg-[var(--gold-accent)] selection:text-black">
             {/* Hero Section */}
-            <section className="hero-section relative h-[70vh] md:h-[80vh] flex items-center justify-center overflow-hidden">
-                {/* Parallax Background */}
-                <div className="hero-bg absolute inset-0 scale-110">
-                    <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-[var(--background)] z-10" />
-                    <img
-                        src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=2000"
-                        alt="Luxury Mountain Resort"
-                        className="w-full h-full object-cover"
-                    />
+            <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
+                <div className="absolute inset-0">
+                    <img src="/images/spiti-hotel-hero.png" alt="Himachal Hotels" className="w-full h-full object-cover brightness-[0.4]" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[var(--background)] via-transparent to-transparent" />
                 </div>
 
                 {/* Floating Elements */}
@@ -180,6 +175,7 @@ export default function HotelsPage() {
                                         <img
                                             src={hotel.image}
                                             alt={hotel.name}
+                                            referrerPolicy="no-referrer"
                                             className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                                         />
 

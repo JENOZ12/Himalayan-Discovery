@@ -54,6 +54,33 @@ export default function Footer() {
                         </ul>
                     </div>
 
+                    {/* Hotel Collections (SEO Links) */}
+                    <div>
+                        <h4 className="text-[var(--gold-accent)] font-mono text-xs uppercase tracking-[0.2em] mb-8">Stays & Collections</h4>
+                        <ul className="space-y-3">
+                            {[
+                                { name: 'Best Hotels in Kalpa', href: '/best-hotels-in-kalpa' },
+                                { name: 'Spiti Hotels & Homestays', href: '/spiti-valley-hotels-homestays' },
+                                { name: 'Hotels in Sarahan', href: '/hotels-in-sarahan-near-bhimakali-temple' },
+                                { name: 'Stay in Rakchham', href: '/homestays-in-rakchham-kinnaur' },
+                                { name: 'Budget Hotels Kaza', href: '/budget-hotels-in-kaza-spiti' },
+                                { name: 'Luxury Kinnaur Stays', href: '/luxury-hotels-in-kinnaur-valley' },
+                                { name: 'Family Hotels Kalpa', href: '/family-hotels-in-kalpa-kinnaur' },
+                                { name: 'Mountain View Hotels', href: '/best-mountain-view-hotels-himachal' },
+                                { name: 'Shimla-Spiti Route Stays', href: '/shimla-to-spiti-road-trip-hotels' },
+                                { name: 'Honeymoon Specials', href: '/honeymoon-hotels-in-spiti-kinnaur' },
+                                { name: 'Winter Spiti Stays', href: '/winter-spiti-valley-hotels' },
+                                { name: 'Kinner Kailash Views', href: '/hotels-with-kinner-kailash-view' },
+                            ].map((link) => (
+                                <li key={link.name}>
+                                    <Link href={link.href} className="text-base font-serif text-white/60 hover:text-white hover:translate-x-2 transition-all block">
+                                        {link.name}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
                     {/* Trending Destinations (SEO Links) */}
                     <div>
                         <h4 className="text-[var(--gold-accent)] font-mono text-xs uppercase tracking-[0.2em] mb-8">Trending</h4>

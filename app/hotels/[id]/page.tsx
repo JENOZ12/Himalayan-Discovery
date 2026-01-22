@@ -83,6 +83,7 @@ export default function HotelDetail({ params }: { params: Promise<{ id: string }
                         <img
                             src={hotel.image}
                             alt={hotel.name}
+                            referrerPolicy="no-referrer"
                             className="hero-img w-full h-full object-cover brightness-[0.6]"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-[var(--background)] via-transparent to-black/40" />
@@ -179,6 +180,7 @@ export default function HotelDetail({ params }: { params: Promise<{ id: string }
                                             <img
                                                 src={img}
                                                 alt={`Gallery ${i}`}
+                                                referrerPolicy="no-referrer"
                                                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                                             />
                                             <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
