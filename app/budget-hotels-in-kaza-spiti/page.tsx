@@ -41,6 +41,7 @@ export default function KazaBudgetPage() {
                                 </div>
                             </div>
                         </div>
+                    ))}
                 </div>
             </section>
 
@@ -109,4 +110,7 @@ export default function KazaBudgetPage() {
                     </div>
                 </div>
             </section>
+        </main>
+    );
+}
 
