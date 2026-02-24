@@ -189,7 +189,7 @@ export default function HotelsPage() {
                                         {/* Rating */}
                                         <div className="absolute top-6 right-6 z-20 flex items-center gap-1.5 px-4 py-1.5 bg-black/60 backdrop-blur-md rounded-full transform translate-y-0 transition-transform duration-500 group-hover:-translate-y-2">
                                             <Star className="w-3.5 h-3.5 fill-[var(--gold-accent)] text-[var(--gold-accent)]" />
-                                            <span className="text-white text-xs font-bold tracking-wider">{hotel.rating}.0</span>
+                                            <span className="text-white text-xs font-bold tracking-wider">{Number.isInteger(hotel.rating) ? `${hotel.rating}.0` : hotel.rating}</span>
                                         </div>
 
                                         {/* Content Overlay */}

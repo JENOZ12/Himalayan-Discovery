@@ -123,7 +123,7 @@ export default function HotelDetail({ params }: { params: Promise<{ id: string }
                                     </div>
                                     <div>
                                         <span className="block text-white/40 text-xs uppercase tracking-widest mb-0.5">Rating</span>
-                                        <span className="text-white font-medium">{hotel.rating}.0 / 5.0 STARS</span>
+                                        <span className="text-white font-medium">{Number.isInteger(hotel.rating) ? `${hotel.rating}.0` : hotel.rating} / 5.0 STARS</span>
                                     </div>
                                 </div>
 
@@ -263,7 +263,7 @@ export default function HotelDetail({ params }: { params: Promise<{ id: string }
                                         <button
                                             onClick={() => {
                                                 const message = encodeURIComponent(`Hi, I have a query about ${hotel?.name}`);
-                                                window.open(`https://wa.me/919805367616?text=${message}`, '_blank');
+                                                window.open(`https://wa.me/919736285518?text=${message}`, '_blank');
                                             }}
                                             className="w-full py-4 bg-transparent border border-white/20 text-white font-bold uppercase tracking-widest hover:bg-white/5 transition-all rounded-lg flex items-center justify-center gap-2"
                                         >

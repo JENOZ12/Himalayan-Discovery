@@ -34,7 +34,7 @@ Guests: ${formData.guests}
 Please share pricing and availability.`;
 
         const encodedMessage = encodeURIComponent(message);
-        const whatsappUrl = `https://wa.me/919805367616?text=${encodedMessage}`;
+        const whatsappUrl = `https://wa.me/919736285518?text=${encodedMessage}`;
 
         window.open(whatsappUrl, '_blank');
         onClose();

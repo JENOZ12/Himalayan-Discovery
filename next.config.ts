@@ -10,6 +10,10 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'photos.app.goo.gl',
+      },
+      {
+        protocol: 'https',
+        hostname: 'travcatalyst.s3.ap-south-1.amazonaws.com',
       }
     ],
   },

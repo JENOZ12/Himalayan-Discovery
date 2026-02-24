@@ -33,7 +33,7 @@ export default function ContactPage() {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        const phoneNumber = '919736282183';
+        const phoneNumber = '919736285518';
         const text = `*New Inquiry* %0A%0A*Name:* ${formData.name} %0A*Phone:* ${formData.phone} %0A*Message:* ${formData.message}`;
         window.open(`https://wa.me/${phoneNumber}?text=${text}`, '_blank');
     };

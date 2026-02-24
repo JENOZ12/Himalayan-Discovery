@@ -366,6 +366,25 @@ export const hotels: Hotel[] = [
             "https://lh3.googleusercontent.com/pw/AP1GczM_gOKspuk4qOUhUhbwTLOonJypjibZQQlTehSRBNRsGpJbMhvtO8DqA942FI3kcGOXCFCMQ0w1bb79BLdgJUHKiJHFkhlnd6T9xoL0Oq-Cumrn88k=w246-h328-no",
             "https://lh3.googleusercontent.com/pw/AP1GczMD09iJBl7uChxHuHR5KIqXu3sHF6aUa4IOXBpbjS5WzqbQFv71TFWg69lonbodizL7PjAwNBWbZTH_tqjAoWsNuxJgzEuLMx2QprDwdxRjC0jYxhk=w246-h328-no"
         ]
+    },
+    {
+        id: "delek-house",
+        name: "HOTEL DELEK HOUSE",
+        location: "Kaza",
+        type: "PREMIUM",
+        price: "On Request",
+        rating: 4.5,
+        image: "https://travcatalyst.s3.ap-south-1.amazonaws.com/6153/Facade.jpeg",
+        description: "A cozy 3-star property in the heart of Kaza, near the D.F.O. Forest Office. Hotel Delek House is renowned for its warm Himalayan hospitality, homely atmosphere, and the in-house restaurant 'Sizzle-In' serving local and multi-cuisine meals. An ideal base for exploring monasteries, markets, and scenic trails.",
+        features: ["Mountain View", "Free WiFi", "Restaurant (Sizzle-In)", "Free Parking", "Room Service", "Laundry", "24/7 Front Desk", "Pet Friendly", "Tour Assistance"],
+        policies: ["Check-in: 12 PM", "Check-out: 11 AM", "Couples Welcome", "Welcome Drink on Arrival"],
+        gallery: [
+            "https://travcatalyst.s3.ap-south-1.amazonaws.com/6153/Facade.jpeg",
+            "https://travcatalyst.s3.ap-south-1.amazonaws.com/778/front-view-of-hotel-delek.jpeg",
+            "https://travcatalyst.s3.ap-south-1.amazonaws.com/779/restaurant-sizzle-in.jpg",
+            "https://travcatalyst.s3.ap-south-1.amazonaws.com/780/hotel-delek-house.jpg",
+            "https://travcatalyst.s3.ap-south-1.amazonaws.com/783/2024-05-09-%281%29.jpg"
+        ]
     }
 ];
 
