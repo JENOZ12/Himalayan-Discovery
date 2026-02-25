@@ -349,22 +349,18 @@ export const hotels: Hotel[] = [
         location: "Kaza",
         type: "PREMIUM",
         price: "On Request",
-        rating: 3,
-        image: "https://lh3.googleusercontent.com/pw/AP1GczOgkNZjYRXHfSjB9C9TDF7sYRed64e1OhsReJnRKI7RcAslZdxGq-gHXU9REVy6fki6tB1xsWdxEGLu5JuwayShou91InwhkKvCAUfHnBmZqnOJTpE=w400-h300-no",
-        description: "Central Kaza location with clean rooms and full travel support. Walking distance from the main market and monastery.",
-        features: ["Mountain View", "Family Friendly", "Central Location", "Clean Rooms", "Travel Support"],
-        policies: ["Cash Payment Preferred"],
+        rating: 4,
+        image: "https://hotelpalveykaza.com/wp-content/uploads/2023/06/IMG_20230613_114115-scaled.jpg",
+        description: "Known for offering some of the best mountain views in the Spiti Valley. The hotel combines traditional Spitian hospitality with modern comforts, featuring clean, well-furnished rooms with wooden interiors and high-speed Wi-Fi.",
+        features: ["Mountain View", "Family Friendly", "Central Location", "Restaurant", "Wooden Interiors", "High-Speed WiFi"],
+        policies: ["Cash Payment Preferred", "Couples Friendly"],
         gallery: [
-            "https://lh3.googleusercontent.com/pw/AP1GczOgkNZjYRXHfSjB9C9TDF7sYRed64e1OhsReJnRKI7RcAslZdxGq-gHXU9REVy6fki6tB1xsWdxEGLu5JuwayShou91InwhkKvCAUfHnBmZqnOJTpE=w400-h300-no",
-            "https://lh3.googleusercontent.com/pw/AP1GczP_p4UOuYmno5QD2dQv6AF6ftsnwdtmOQ2TrlN5txLF_q1cfdH94uP1_ncIg_X6kEwP7pFM4u3R-xdyjGMtdjbB7XzJkvsrWFcp3IBWdVrcB-Yxj1Y=w400-h300-no",
-            "https://lh3.googleusercontent.com/pw/AP1GczM5VFlAbiluZnpBwNru1jIHgtH9L3h3iCww3eUssGNWMp_nrMVCSuBGQWX3sFkMH6D70-Hph0Y99Fm_rQwj_qn_Yndl8GrGr7Gz0-OWhZv_tESFJZc=w400-h300-no",
-            "https://lh3.googleusercontent.com/pw/AP1GczNpat2WC6mYWZuHkR896UtfUPki6habI-JbrhdN8tOH9tZLAdF3SdHrAHISO3DK6Zgvhj4kZY5JKmV_UFCn6rcTZUoQIvNXJFjv2tOKFTfrCCymPKA=w225-h300-no",
-            "https://lh3.googleusercontent.com/pw/AP1GczMC3rehYGY9uLeiLTnzShdAcVoT1wTMcxUVVLnocI2-8F7G-eEks0wlQif7a0g52r-hZk_W8dees_RIX3W-4-64mB5orO2pejzdo7-dJWc9G10exEs=w477-h358-no",
-            "https://lh3.googleusercontent.com/pw/AP1GczPmYTVdr9DEQ7Z_6C47UT0i0vSyAssDYBYqFv8hxIolOyHtzy0LYClKIBIDhEi_0Od02Lhu2d-HfU9VN0AnK8TPhvT6bTXkLvyplaL1H_YRbkM7LPk=w477-h358-no",
-            "https://lh3.googleusercontent.com/pw/AP1GczNmumW7YVvdEpdvN_8HsHEs3PBGmZgyomaPN1odqoH6dIRmyZyD8ljFXlmx9n745JBMxMvFcIrsnhCjYnvcM3DXNcBROhkUZRam5mv3b7z5vfjt7Gw=w477-h358-no",
-            "https://lh3.googleusercontent.com/pw/AP1GczOkPCu3kixvGdKuTRKvLzehG0-4xTO55gZKuAnEacwUnS7CMZ9tA593rhILknwOQC1-7B7I-RVNgTufrPEHRnKpmRNFo6ALVP4R5oAIl2g5jiG0S5Y=w438-h328-no",
-            "https://lh3.googleusercontent.com/pw/AP1GczM_gOKspuk4qOUhUhbwTLOonJypjibZQQlTehSRBNRsGpJbMhvtO8DqA942FI3kcGOXCFCMQ0w1bb79BLdgJUHKiJHFkhlnd6T9xoL0Oq-Cumrn88k=w246-h328-no",
-            "https://lh3.googleusercontent.com/pw/AP1GczMD09iJBl7uChxHuHR5KIqXu3sHF6aUa4IOXBpbjS5WzqbQFv71TFWg69lonbodizL7PjAwNBWbZTH_tqjAoWsNuxJgzEuLMx2QprDwdxRjC0jYxhk=w246-h328-no"
+            "https://hotelpalveykaza.com/wp-content/uploads/2023/06/IMG_20230613_114115-scaled.jpg",
+            "https://hotelpalveykaza.com/wp-content/uploads/2023/06/IMG_20230613_115024-scaled.jpg",
+            "https://hotelpalveykaza.com/wp-content/uploads/2023/06/IMG_20230613_114224-scaled.jpg",
+            "https://hotelpalveykaza.com/wp-content/uploads/2023/06/IMG_20230613_114634-scaled.jpg",
+            "https://hotelpalveykaza.com/wp-content/uploads/2023/06/IMG_20230613_114812-scaled.jpg",
+            "https://hotelpalveykaza.com/wp-content/uploads/2023/06/IMG_20230613_114402-scaled.jpg"
         ]
     },
     {
@@ -384,6 +380,27 @@ export const hotels: Hotel[] = [
             "https://travcatalyst.s3.ap-south-1.amazonaws.com/779/restaurant-sizzle-in.jpg",
             "https://travcatalyst.s3.ap-south-1.amazonaws.com/780/hotel-delek-house.jpg",
             "https://travcatalyst.s3.ap-south-1.amazonaws.com/783/2024-05-09-%281%29.jpg"
+        ]
+    },
+    {
+        id: "golden-peak",
+        name: "GOLDEN PEAK MANALI",
+        location: "Manali",
+        type: "PREMIUM",
+        price: "On Request",
+        rating: 4.5,
+        image: "https://goldenpeakmanali.com/gallery/1.jpg",
+        description: "A serene resort located in the peaceful Prini area of Manali, away from the noise of Mall Road. Breathtaking views of the snow-capped Himalayan peaks, cozy wooden interiors, and personalized service.",
+        features: ["Snow Peak Views", "Wooden Interiors", "Restaurant", "Balcony Rooms", "Peaceful Location"],
+        policies: ["Check-in: 12 PM", "Check-out: 11 AM", "Couples Friendly"],
+        gallery: [
+            "https://goldenpeakmanali.com/gallery/1.jpg",
+            "https://goldenpeakmanali.com/gallery/2.jpg",
+            "https://goldenpeakmanali.com/gallery/3.jpg",
+            "https://goldenpeakmanali.com/gallery/4.jpg",
+            "https://goldenpeakmanali.com/gallery/5.jpg",
+            "https://goldenpeakmanali.com/gallery/6.jpg",
+            "https://goldenpeakmanali.com/gallery/7.jpg"
         ]
     }
 ];

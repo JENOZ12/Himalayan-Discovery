@@ -14,6 +14,14 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'travcatalyst.s3.ap-south-1.amazonaws.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'hotelpalveykaza.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'goldenpeakmanali.com',
       }
     ],
   },
